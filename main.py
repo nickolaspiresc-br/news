@@ -19,6 +19,5 @@ response = requests.get(url)
 #Verification of status request and web scraping
 if response.status_code == 200:
     print("\nRequest successful\n")
-    print(response.json())
 else:
-    print("Error 404")
+    print("\nError 404\n")
